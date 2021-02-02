@@ -11,7 +11,7 @@ let TelegramToken = '819726159:AAFMBPuQ5AAZJ60kFaQfEzqZrp_dyTE7mwI';
 
 let express    = require('express');
 let app        = express();
-let port       = process.env.PORT || 8182;
+let port       = process.env.PORT || 3000;
 let expressWs  = require('express-ws')(app);
 let bodyParser = require('body-parser');
 
